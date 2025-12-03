@@ -36,3 +36,17 @@ writing the html inside the javascript
 index.html -> main
 main.jsx -> child of index.html
 app.jsx -> child of main.jsx
+
+
+Hooks ->
+1. UseState -> it manages the states of components
+    jab button ek state se dusre state me jana chahti hain, to usko handle karne ke liye useState use hota hain
+    example -> kisi button ka color change hona, naam 'samir' se 'shwetal' ho jana jab bhi use click kare
+2. useEffect -> ek hook hai jo tumhe side effects run karne deta hai component ke andar.
+    example - jaise API call karna, DOM ko manually handle karna
+3. useRef -> it used to DOM elements ko directly access karne ke liye (without re-render) ye uska reference leta hain, Aisi value store karne ke liye jo change ho sakti hai, par UI update/re-render cause na kare
+4. useContext -> global context ko handle karne ka kaam eska hain without props drilling
+    jaise data ko C me jana hain A se, to vo pahile A -> B -> C jata tha, to hum kya kar rahe data ko global bana denge aur fir C usko directly use kar payenga with context, to us context ko handle karne ka kaam useContext bhai ka hain
+5. useReducer -> ye complex state logic handle karne ke liye use hota hai
+6. useMemo -> ye heavy calculations ko optimize karne ke liye use hota hai, taki har render pe same calculation dobara na chale.
+7. useCallBack -> ye functions ko memoize karne ke liye use hota hai, taki har render pe naya function instance na bane.
