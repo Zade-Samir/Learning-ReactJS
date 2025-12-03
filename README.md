@@ -50,3 +50,7 @@ Hooks ->
 5. useReducer -> ye complex state logic handle karne ke liye use hota hai
 6. useMemo -> ye heavy calculations ko optimize karne ke liye use hota hai, taki har render pe same calculation dobara na chale.
 7. useCallBack -> ye functions ko memoize karne ke liye use hota hai, taki har render pe naya function instance na bane.
+
+Advanced ->
+1. Synchronous -> code sequence wise run hogo
+2. Asynchronous -> code parallel run hoga
