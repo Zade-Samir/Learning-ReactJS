@@ -54,3 +54,8 @@ Hooks ->
 Advanced ->
 1. Synchronous -> code sequence wise run hogo
 2. Asynchronous -> code parallel run hoga
+
+localStorage -> ye hain browser ki memory samjhe
+
+API ->
+fetch -> 
